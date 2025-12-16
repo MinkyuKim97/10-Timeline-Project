@@ -1,0 +1,394 @@
+{
+  "name": "Tree-Node Project Manager",
+  "date": "Nov 10 2025",
+  "time": "23:59",
+  "value": "Building a tree-node based project manager with React",
+  "children": [
+    {
+      "name": "Idea sketch",
+      "date": "Nov 1 2025",
+      "time": "18:30",
+      "value": "Sketching what I want to build and how",
+      "children": [
+        {
+          "name": "Managing my projects?",
+          "date": "",
+          "time": "",
+          "value": "There are a lot of projects on going, want to manage the project well as much as I can",
+          "children": []
+        },
+        {
+          "name": "Using React",
+          "date": "",
+          "time": "",
+          "value": "React is good for generating multiple datas with a certain shape ",
+          "children": [
+            {
+              "name": "Connect with JSON",
+              "date": "",
+              "time": "",
+              "value": "Dealing with the project data",
+              "children": []
+            },
+            {
+              "name": "Data manging",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research and apply",
+      "date": "Nov 3 2025",
+      "time": "14:00",
+      "value": "Need more research how can I build this on the right purpose",
+      "children": [
+        {
+          "name": "D3 library understand",
+          "date": "",
+          "time": "",
+          "value": "Found D3 library. Need to learn how it works",
+          "children": [
+            {
+              "name": "Build sample Tree shape",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Making a sample data",
+          "date": "",
+          "time": "",
+          "value": "For debbuging purpose",
+          "children": [
+            {
+              "name": "Set the structure and contents",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Build Tree shape",
+      "date": "Nov 4 2025",
+      "time": "12:10",
+      "value": "Try out D3 and start to make a structure",
+      "children": [
+        {
+          "name": "Node placing",
+          "date": "",
+          "time": "",
+          "value": "",
+          "children": []
+        },
+        {
+          "name": "Node connecting",
+          "date": "",
+          "time": "",
+          "value": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "More features",
+      "date": "Nov 8 2025",
+      "time": "18:30",
+      "value": "Adding more features for better experience",
+      "children": [
+        {
+          "name": "Side bar",
+          "date": "",
+          "time": "",
+          "value": "",
+          "children": [
+            {
+              "name": "Hierarchy navigation",
+              "date": "",
+              "time": "",
+              "value": "Side bar click -> move to certain node.\nWorth it to try.",
+              "children": [
+                {
+                  "name": "Move to selected one",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Node distance adjust",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": [
+                {
+                  "name": "X, Y",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Some Buttons",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": [
+                {
+                  "name": "Return to root center",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Export JSON",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Fetch JSON (for resetting the localstorage)",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Node editing",
+          "date": "",
+          "time": "",
+          "value": "",
+          "children": [
+            {
+              "name": "Adding/Deleting more nodes",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            },
+            {
+              "name": "Change node infos",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Optional",
+      "date": "",
+      "time": "",
+      "value": "Some optional features I could add more in the future",
+      "children": [
+        {
+          "name": "D3: Radial Tree shape",
+          "date": "",
+          "time": "",
+          "value": "Found a cool shape of Tree graph call Radial",
+          "children": [
+            {
+              "name": "Or try other D3 Graph shapes",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Firebase JSON fetch",
+          "date": "",
+          "time": "",
+          "value": "Want to manage the data with the server, not as a local.\nIt's a big limitation",
+          "children": []
+        },
+        {
+          "name": "Node adjust and realign",
+          "date": "",
+          "time": "",
+          "value": "Currently, Can't adjust the order of node or move the position with drag&drop",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Submission",
+      "date": "Nov 10 2025",
+      "time": "23:59",
+      "value": "Submit the result",
+      "children": [
+        {
+          "name": "Github code upload",
+          "date": "",
+          "time": "",
+          "value": "Make sure not to upload important infos, such as API key",
+          "children": [
+            {
+              "name": "Commit final code",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "5 min WalkThrough video",
+          "date": "",
+          "time": "",
+          "value": "Make sure to list what I want to say.",
+          "children": [
+            {
+              "name": "What was the goal?",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": [
+                {
+                  "name": "For managing my own project with a tree visual",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "How I build?",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": [
+                {
+                  "name": "React Swatch example",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "D3 tree graph",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Features",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": [
+                {
+                  "name": "Node adding/removing",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Node info changing",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Pan/Drag system",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Side bar",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": [
+                    {
+                      "name": "Width adjust",
+                      "date": "",
+                      "time": "",
+                      "value": "",
+                      "children": []
+                    },
+                    {
+                      "name": "Buttons",
+                      "date": "",
+                      "time": "",
+                      "value": "",
+                      "children": []
+                    },
+                    {
+                      "name": "Hierarchy move",
+                      "date": "",
+                      "time": "",
+                      "value": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "How to use with your own JSON",
+              "date": "",
+              "time": "",
+              "value": "",
+              "children": [
+                {
+                  "name": "Saving on localstorage",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Export Json",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                },
+                {
+                  "name": "Apply in to your project",
+                  "date": "",
+                  "time": "",
+                  "value": "",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
