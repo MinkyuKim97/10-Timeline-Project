@@ -10,17 +10,19 @@ window.addEventListener("load", async () => {
 
 function Editor() {
   const loadInitial = () => {
+    // Always start from the bundled JSON (no persistence override)
     try {
-      const raw = localStorage.getItem("treeData_v1");
-      if (raw) return JSON.parse(raw);
-    } catch {}
-    return {
-      name: projectSchemes?.name ?? "Root",
-      date: projectSchemes?.date ?? "",
-      time: projectSchemes?.time ?? "",
-      value: projectSchemes?.value ?? "",
-      children: projectSchemes?.children ?? [],
-    };
+      return JSON.parse(JSON.stringify(projectSchemes));
+    } catch {
+      return {
+        name: projectSchemes?.name ?? "Root",
+        date: projectSchemes?.date ?? "",
+        time: projectSchemes?.time ?? "",
+        value: projectSchemes?.value ?? "",
+        img: projectSchemes?.img ?? "",
+        children: projectSchemes?.children ?? [],
+      };
+    }
   };
   const initial = loadInitial();
 
@@ -31,13 +33,8 @@ function Editor() {
     value: initial.value ?? "",
   });
   const [children, setChildren] = useState(initial.children ?? []);
-  useEffect(() => {
-    const data = { name: projectName, ...rootMeta, children };
-    localStorage.setItem("treeData_v1", JSON.stringify(data));
-  }, [projectName, rootMeta, children]);
-
-  const [nodeGapY, setNodeGapY] = useState(50);
-  const [nodeGapX, setNodeGapX] = useState(300);
+const [nodeGapY, setNodeGapY] = useState(150);
+  const [nodeGapX, setNodeGapX] = useState(400);
   const [selectedId, setSelectedId] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [sidebarVW, setSidebarVW] = useState(20);
@@ -137,6 +134,7 @@ function Editor() {
       date: "",
       time: "",
       value: "",
+      img: "",
       children: [],
     };
     setChildren((prev) => addChildImmutable(prev, indices, newChild));
@@ -390,15 +388,6 @@ function Editor() {
     setSelectedId(null);
     centerToNodeAtZoom(node, 1.6, "smooth");
   };
-
-
-  const resetToJSON = () => {
-    try {
-      localStorage.removeItem('treeData_v1');
-    } catch {}
-    location.reload();
-  };
-
   const SideTree = ({ node }) => {
     const clickable = {
       display: "block",
@@ -437,19 +426,6 @@ function Editor() {
           node.children.map((c) => <SideTree key={c.id} node={c} />)}
       </div>
     );
-  };
-
-  const downloadJSON = () => {
-    const data = { name: projectName, ...rootMeta, children };
-    const blob = new Blob([JSON.stringify(data, null, 2)], {
-      type: "application/json",
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "projectData.updated.json";
-    a.click();
-    URL.revokeObjectURL(url);
   };
 
   return (
@@ -530,7 +506,7 @@ function Editor() {
             Hide Panel
           </button>
 
-          <div style={{ marginBottom: 16, marginTop: 36 }}>
+          {/* <div style={{ marginBottom: 16, marginTop: 36 }}>
             <div style={{ fontSize: 12, color: "#555", marginBottom: 6 }}>
               Panel width
             </div>
@@ -552,9 +528,9 @@ function Editor() {
               />
 
             </div>
-          </div>
+          </div> */}
 
-          <div style={{ marginBottom: 12 }}>
+          {/* <div style={{ marginBottom: 12 }}>
             <div style={{ fontSize: 12, color: "#555", marginBottom: 6 }}>
               Y Height
             </div>
@@ -600,7 +576,7 @@ function Editor() {
               />
 
             </div>
-          </div>
+          </div> */}
 
           <div style={{ display: "flex", gap: 8, marginBottom: 16 }}>
             <button
@@ -616,37 +592,7 @@ function Editor() {
             >
               Root center
             </button>
-
-            <button
-              className="panelBtn"
-              onClick={downloadJSON}
-              style={{
-                padding: "6px 10px",
-                // borderRadius: 6,
-                border: "1px solid rgba(0,0,0,0.2)",
-                background: "white",
-                cursor: "pointer",
-              }}
-              title="Download current JSON"
-            >
-              Export JSON
-            </button>
-
-            <button
-              className="panelBtn"
-              onClick={resetToJSON}
-              style={{
-                padding: "6px 10px",
-                // borderRadius: 6,
-                border: "1px solid rgba(0,0,0,0.2)",
-                background: "#fff8f8",
-                cursor: "pointer",
-              }}
-              title="Clear localStorage and reload from projectData.json"
-            >
-              Fetch JSON
-            </button>
-          </div>
+</div>
 
           <div
             style={{
@@ -758,6 +704,7 @@ function Editor() {
                   date={n.data?.date}
                   time={n.data?.time}
                   value={n.data?.value}
+                  img={n.data?.img}
                   onAddChild={() => handleAddChildAt(n.id)}
                   onChangeField={(field, val) => setNodeField(n.id, field, val)}
                   onDelete={() => handleDeleteNode(n.id)}
@@ -778,6 +725,7 @@ function NodeCard({
   date,
   time,
   value,
+  img,
   onAddChild,
   onChangeField,
   onDelete,
@@ -919,6 +867,35 @@ function NodeCard({
         >
           {selected ? (
             <>
+              
+              {img && (
+                <img
+                  src={img}
+                  alt={name ? `${name} thumbnail` : "thumbnail"}
+                  style={{
+                    width: "100%",
+                    maxHeight: 160,
+                    objectFit: "cover",
+                    borderRadius: 10,
+                    border: "1px solid rgba(0,0,0,0.15)",
+                    marginBottom: 8,
+                  }}
+                  onClick={stop}
+                  loading="lazy"
+                />
+              )}
+
+              <div style={{ marginBottom: 8 }}>
+                <span className="label">Image URL</span>
+                <input
+                  className="text-input"
+                  value={img ?? ""}
+                  onChange={(e) => onChangeField("img", e.target.value)}
+                  onClick={stop}
+                  placeholder="https://..."
+                />
+              </div>
+
               <div className="row">
                 <div>
                   <span className="label">Date</span>
@@ -956,6 +933,23 @@ function NodeCard({
             </>
           ) : (
             <>
+              
+              {img && (
+                <img
+                  src={img}
+                  alt={name ? `${name} thumbnail` : "thumbnail"}
+                  style={{
+                    width: "100%",
+                    maxHeight: 160,
+                    objectFit: "cover",
+                    borderRadius: 10,
+                    border: "1px solid rgba(0,0,0,0.15)",
+                    marginBottom: 8,
+                  }}
+                  loading="lazy"
+                />
+              )}
+
               {date && (
                 <div style={{ fontSize: 12, marginBottom: 2 }}>
                   <b>Date:</b> {date}{" "}

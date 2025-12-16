@@ -11,6 +11,7 @@ export default function D3Tree({
   margin = { top: 40, right: 40, bottom: 40, left: 40 },
 }) {
   const [collapsed, setCollapsed] = useState(new Set());
+  const [hovered, setHovered] = useState(null);
 
   const root = useMemo(() => {
     const h = d3.hierarchy(data);
@@ -27,7 +28,8 @@ export default function D3Tree({
   const links = root.links();
 
   return (
-    <svg width={width} height={height} style={{ border: "1px solid #eee" }}>
+    <div style={{ position: 'relative', width, height }}>
+      <svg width={width} height={height} style={{ border: "1px solid #eee" }}>
       <g transform={`translate(${margin.left},${margin.top})`}>
         {/* 간선 */}
         {links.map((link, i) => (
@@ -55,6 +57,13 @@ export default function D3Tree({
               key={id}
               transform={`translate(${n.y},${n.x})`}
               style={{ cursor: n._hasChildren ? "pointer" : "default" }}
+              onMouseMove={(e) => {
+                setHovered({ data: n.data, px: e.nativeEvent.offsetX, py: e.nativeEvent.offsetY });
+              }}
+              onMouseEnter={(e) => {
+                setHovered({ data: n.data, px: e.nativeEvent.offsetX, py: e.nativeEvent.offsetY });
+              }}
+              onMouseLeave={() => setHovered(null)}
               onClick={() => {
                 if (!n._hasChildren) return;
                 setCollapsed((prev) => {
@@ -79,5 +88,52 @@ export default function D3Tree({
         })}
       </g>
     </svg>
+
+      {hovered && (
+        <div
+          style={{
+            position: 'absolute',
+            left: hovered.px + 12,
+            top: hovered.py + 12,
+            width: 260,
+            background: 'white',
+            border: '1px solid rgba(0,0,0,0.2)',
+            borderRadius: 12,
+            boxShadow: '0 8px 24px rgba(0,0,0,0.16)',
+            padding: 10,
+            pointerEvents: 'none',
+          }}
+        >
+          {hovered.data?.img && (
+            <img
+              src={hovered.data.img}
+              alt={hovered.data?.name ? `${hovered.data.name} thumbnail` : 'thumbnail'}
+              style={{
+                width: '100%',
+                maxHeight: 160,
+                objectFit: 'cover',
+                borderRadius: 10,
+                border: '1px solid rgba(0,0,0,0.15)',
+                marginBottom: 8,
+              }}
+              loading="lazy"
+            />
+          )}
+          <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 6 }}>
+            {hovered.data?.name}
+          </div>
+          {hovered.data?.date && (
+            <div style={{ fontSize: 12, marginBottom: 4 }}>
+              <b>Date:</b> {hovered.data.date}
+            </div>
+          )}
+          {hovered.data?.value && (
+            <div style={{ fontSize: 12, marginBottom: 4 }}>
+              <b>Description:</b> {hovered.data.value}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
   );
 }

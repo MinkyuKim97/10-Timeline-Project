@@ -1,267 +1,500 @@
 {
   "name": "History of Design Timeline",
-  "date": "1851-1995",
-  "time": "",
-  "value": "Course map from the 1851 Great Exhibition to Postmodernism (D3 Tree Node format).",
+  "date": "",
+  "value": "Timeline node of design movements and key works (1851 → Postmodernism). Select the artwork/design based on my personal theme, 'Idea: Mass-production vs Craftsmanship'.",
   "children": [
     {
-      "name": "1851 / 1851 Britain Industrialization — Great Exhibition",
-      "date": "1851-1851",
-      "time": "",
-      "value": "Industrial-era exhibition culture; mass production meets spectacle and display.",
+      "name": "1847-1856 / 1851 Britian Industrialization / Great Exhibition",
+      "date": "1847-1856",
+      "value": "Industrialization, new materials, and design pedagogy emerge around world’s fairs and reform debates.",
       "children": [
         {
-          "name": "The Crystal Palace (Joseph Paxton)",
+          "name": "Crystal Palace",
           "date": "1851",
-          "time": "",
-          "value": "Prefabricated iron-and-glass exhibition hall built for the Great Exhibition.",
-          "children": []
+          "designer": "Joseph Paxton",
+          "img": "https://d7hftxdivxxvm.cloudfront.net/?height=704&quality=50&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FOLuPnN0hP-a_3AzE9PFO-g%2Fnormalized.jpg&width=800",
+          "value": "Designer: Joseph Paxton.\n\nBuilt for the Great Exhibition, the Crystal Palace showcased iron-and-glass construction at unprecedented scale. It made industrial production feel like a national spectacle—yet its transparent, modular logic also raised questions about whether beauty could come from standardization.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A single building makes industrial standardization feel beautiful: iron-and-glass parts assembled like a kit. Ask whether this modular construction replaces (or relocates) craftsmanship—from carving to engineering, coordination, and logistics."
+            }
+          ]
         },
         {
-          "name": "Osler 'Crystal Fountain' (F. & C. Osler)",
-          "date": "1851",
-          "time": "",
-          "value": "Large glass fountain shown at the Great Exhibition; symbol of industrial craft + display.",
-          "children": []
+          "name": "A.W.N. Pugin, Table",
+          "date": "1847",
+          "designer": "A.W.N. Pugin",
+          "img": "https://framemark.vam.ac.uk/collections/2006AT8030/full/!600,/0/default.jpg",
+          "value": "Designer: A.W.N. Pugin.\n\nA Gothic-inspired table design that argues for moral truth in craft and construction. In a period rushing toward factory output, Pugin’s approach defends historically grounded ornament and skilled making as an ethical counterpoint.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Pugin treats craft and honest construction as a moral stance against cheap machine-made imitation. Ask who “authenticity” protects: makers, users, or a hierarchy of taste."
+            }
+          ]
         },
         {
-          "name": "Coalbrookdale 'Boy and Swan' Fountain (cast iron)",
-          "date": "1851",
-          "time": "",
-          "value": "Cast-iron fountain produced for the Great Exhibition; industrial material as ornament.",
-          "children": []
+          "name": "Owen Jones, The Grammar of Ornament",
+          "date": "1856",
+          "designer": "Owen Jones",
+          "img": "https://cdn.sanity.io/images/cctd4ker/production/58abe137ce9d03d762a15599790cd6ba334ab341-760x611.jpg?w=3840&q=75&fit=clip&auto=format",
+          "value": "Designer: Owen Jones.\n\nA landmark pattern book that systematized ornament through comparative study and reproducible plates. It helped translate “taste” into teachable rules—supporting wider dissemination (and industrial reproduction) while still claiming authority from historical craft traditions.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "By turning ornament into a rulebook, Jones makes style teachable and reproducible at scale. Ask what’s lost when embodied, local craft knowledge becomes standardized “design data.”"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1851-1890 / Design Reform",
-      "date": "1851-1890",
-      "time": "",
-      "value": "Reformers react to industrialization: honesty in materials, craft revival, design education.",
+      "name": "1851-1880 / Design Reform",
+      "date": "1851-1880",
+      "value": "Design education, taste-making, and reform movements respond to industrial mass production with new standards and models.",
       "children": [
         {
-          "name": "Red House (William Morris + Philip Webb)",
-          "date": "1860",
-          "time": "",
-          "value": "Arts & Crafts landmark; collaborative architecture + interiors emphasizing handmade craft.",
-          "children": []
+          "name": "Henry Cole, Tea Set",
+          "date": "1846",
+          "designer": "Henry Cole (Felix Summerly) / executed by Minton",
+          "img": "https://framemark.vam.ac.uk/collections/2006AN2144/full/735,/0/default.jpg",
+          "value": "Designer: Henry Cole (Felix Summerly), executed by Minton.\n\nCole’s prize-winning design for a tea service (here represented by a surviving related vessel) aimed to ‘improve public taste’ through well-designed everyday objects. It sits right on the fault line between refined design ideals and industrial manufacture for a broader market.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Cole aims to improve everyday taste through objects that can be manufactured for many people. Ask where authorship sits in mass production: the designer’s intent, the factory’s constraints, or the maker’s skill."
+            }
+          ]
         },
         {
-          "name": "Trellis wallpaper (William Morris)",
-          "date": "1862",
-          "time": "",
-          "value": "Morris’s first wallpaper design; nature + pattern as a critique of industrial taste.",
-          "children": []
+          "name": "William Morris, Acanthus",
+          "date": "1874",
+          "designer": "William Morris",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTesHFFbSJhl-FllgvFlaL2-fNM7IwQedi07A&s",
+          "value": "Designer: William Morris.\n\nA richly layered wallpaper pattern associated with Morris’s Arts & Crafts ideals and critique of factory blandness. The design celebrates handcraft aesthetics even as wallpapers could circulate widely—showing how “artisan taste” could be mediated through repeatable production.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Wallpaper repeats spread widely, but Morris insists labor ethics matter as much as the pattern. Ask whether ‘craft value’ survives when the surface is printed and distributed at scale."
+            }
+          ]
         },
         {
-          "name": "Diamond-shaped teapot (Christopher Dresser)",
-          "date": "1879",
-          "time": "",
-          "value": "Industrial-era product design bridging craft aesthetics and modern manufacturing.",
-          "children": []
+          "name": "William Morris, Brother Rabbit",
+          "date": "1880",
+          "designer": "William Morris",
+          "img": "https://framemark.vam.ac.uk/collections/2006AF5047/full/735,/0/default.jpg",
+          "value": "Designer: William Morris.\n\nA narrative textile pattern that revives medievalizing craft values through dense, rhythmic repeats. It demonstrates how surface design can carry a politics of labor and authenticity, even when printed textiles enable broader distribution than one-off handwork.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A storytelling textile can be printed and repeated, yet it carries a politics of labor and authenticity. Ask if moral critique can travel through mass-produced surfaces without becoming just another style."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1890-1914 / Art Nouveau",
-      "date": "1890-1914",
-      "time": "",
-      "value": "Total design: flowing lines, nature motifs, new materials, and unified visual worlds.",
+      "name": "1890-1910 / Art Nouveau",
+      "date": "1890-1910",
+      "value": "Organic line, new urban modernity, and a blend of artisanal detailing with modern materials and mass media.",
       "children": [
         {
-          "name": "Gismonda poster (Alphonse Mucha)",
-          "date": "1894",
-          "time": "",
-          "value": "Iconic poster style that helped define Art Nouveau graphic design.",
-          "children": []
+          "name": "Hôtel Tassel",
+          "date": "1893",
+          "designer": "Victor Horta",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf1tr-hKQunAdtIxCeefFiyoiHjdLgDTJsJA&s",
+          "value": "Designer: Victor Horta.\n\nOften cited as an early Art Nouveau landmark, it uses modern iron structure alongside intensely crafted interior details. The building makes a strong case that modern materials didn’t have to erase artisanal expressiveness.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Modern materials (iron, glass) enable new structures, but the interior depends on bespoke detailing. Ask whether Art Nouveau humanizes modernity—or simply decorates industry to feel handcrafted."
+            }
+          ]
         },
         {
-          "name": "Paris Métro entrances (Hector Guimard)",
+          "name": "Paris Métro Entrances",
           "date": "1900",
-          "time": "",
-          "value": "Urban infrastructure turned into ornament; signature whiplash forms.",
-          "children": []
+          "designer": "Hector Guimard",
+          "img": "https://i.redd.it/320sog7z43f91.jpg",
+          "value": "Designer: Hector Guimard.\n\nGuimard’s métro entrances turned public infrastructure into a citywide design system. They relied on repeatable elements for scale, yet the signature organic forms and typography kept an artisanal, bespoke feel within mass deployment.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A public system needs repeatable parts, yet Guimard’s entrances look custom and organic. Ask how mass infrastructure can still communicate individuality—and what compromises standardization forces."
+            }
+          ]
         },
         {
-          "name": "Dragonfly table lamp (Tiffany Studios / Clara Driscoll)",
-          "date": "1902",
-          "time": "",
-          "value": "Stained-glass lighting as luxury craft object within Art Nouveau domestic interiors.",
-          "children": []
+          "name": "Gismonda Poster",
+          "date": "1894",
+          "designer": "Alphonse Mucha",
+          "img": "https://i0.wp.com/parkstone.international/wp-content/uploads/2016/04/alphonse-mucha_1894-1894_gismonda1-11.jpg?fit=768%2C545&ssl=1",
+          "value": "Designer: Alphonse Mucha.\n\nA defining Art Nouveau poster that spread style through lithographic mass reproduction. It shows how ‘art’ imagery could circulate as commercial media—making visual culture scalable in a way handcrafted objects could not.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Posters mass-produce an artist’s style for the street. Ask how the ‘aura’ of hand-drawn ornament changes once it becomes a reproducible commercial image."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1919-1933 / Modernism and Bauhaus",
-      "date": "1919-1933",
-      "time": "",
-      "value": "Functionalism + new pedagogy: art/industry integration, standardization, and clarity.",
+      "name": "1920s-1930s / Art Deco",
+      "date": "1920s-1930s",
+      "value": "Luxury materials and geometric modernity—often mixing artisanal finishing with the aesthetics of machines and commerce.",
       "children": [
         {
-          "name": "Wassily Chair (Marcel Breuer)",
+          "name": "Paris 1925 Expo Interior",
           "date": "1925",
-          "time": "",
-          "value": "Tubular-steel furniture; machine aesthetics + lightweight structure.",
-          "children": []
+          "designer": "Jacques-Émile Ruhlmann (Hôtel du Collectionneur, 1925 Exposition)",
+          "img": "https://static.dezeen.com/uploads/2025/03/1925-expo-pavilions-international-exhibition-of-modern-decorative-and-industrial-arts-architecture-roundup_dezeen_1704_col_3-852x550.jpg",
+          "value": "Designer: Jacques-Émile Ruhlmann (Hôtel du Collectionneur, 1925 Exposition).\n\nThe 1925 Exposition popularized a ‘modern luxury’ look through exquisite interiors and display culture. It promoted craftsmanship and rare materials as national prestige even while functioning as a mass-attended media machine for style.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Art Deco luxury celebrates rare materials and high craft inside a mass-attended exhibition. Ask why, in an age of mass production, prestige is still built through scarcity and artisanal labor."
+            }
+          ]
         },
         {
-          "name": "Bauhaus Building, Dessau (Walter Gropius)",
-          "date": "1926",
-          "time": "",
-          "value": "Modern school building: glass curtain wall + rational plan for new design education.",
-          "children": []
+          "name": "Cartier Vanity Case",
+          "date": "1920s",
+          "designer": "Cartier",
+          "img": "https://sothebys-com.brightspotcdn.com/dims4/default/b8cf32b/2147483647/strip/true/crop/5225x3548+21+306/resize/684x464!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Fbc%2F7f%2F4c88ed3345eb8fa58828482f1ae5%2Fboucheron-ruby-vanity-case.jpg",
+          "value": "Designer: Cartier.\n\nA compact luxury object built on painstaking metalwork and precious materials, made for elite consumption. Its value depends on craft-intensive labor and scarcity—standing in deliberate contrast to the era’s expanding mass consumer goods.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A tiny object concentrates extreme craft and precious materials—deliberately opposite to mass consumer goods. Ask how luxury uses craft to justify price, status, and exclusivity."
+            }
+          ]
         },
         {
-          "name": "Barcelona Chair (Mies van der Rohe + Lilly Reich)",
-          "date": "1929",
-          "time": "",
-          "value": "Modernist furniture icon; luxury materials with minimal form.",
-          "children": []
+          "name": "Cassandre SS Normandie Poster",
+          "date": "1930s",
+          "designer": "A.M. Cassandre",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPGQDWCw38DiXHe_SvwZu56VgV65Y--kcjpw&s",
+          "value": "Designer: A.M. Cassandre.\n\nA streamlined travel poster that sells speed and modernity through graphic simplification and dramatic scale. As printed media, it exemplifies mass circulation—turning a luxury liner into a widely reproducible image and desire.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A mass-printed poster sells the dream of an elite, luxury experience. Ask how mass media manufactures desire for scarcity—and whether the image becomes more powerful than the object."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1920-1939 / Art Deco",
-      "date": "1920-1939",
-      "time": "",
-      "value": "Geometric glamour, luxury materials, and modern imagery shaped by global exchange.",
+      "name": "1920s-1930s / Modernism and Bauhaus",
+      "date": "1920s-1930s",
+      "value": "Standardization, functionalism, and prototypes for industrial production—often redefining ‘craft’ as experimental making.",
       "children": [
         {
-          "name": "Bibendum Chair (Eileen Gray)",
+          "name": "Frankfurt Kitchen",
           "date": "1926",
-          "time": "",
-          "value": "Modern lounge chair with playful volumetric upholstery; high-end modern interior culture.",
-          "children": []
+          "designer": "Margarete Schütte-Lihotzky",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEOZXphFxu2OrBQSs_iPu3Iw3l-wNsv5bqWA&s",
+          "value": "Designer: Margarete Schütte-Lihotzky.\n\nA standardized, built-in kitchen designed for efficiency in social housing. It treats domestic space like a rational system—prioritizing repeatable modules and workflows over bespoke cabinetry and individual craft choices.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "The kitchen becomes a standardized system: workflow, hygiene, and modules replace bespoke cabinetry. Ask whether efficiency is social progress—or a way to discipline and control domestic labor."
+            }
+          ]
         },
         {
-          "name": "Bacchantes Vase (René Lalique)",
-          "date": "1927",
-          "time": "",
-          "value": "Decorative glass object exemplifying Art Deco sensual geometry and material finish.",
-          "children": []
+          "name": "Wassily Chair",
+          "date": "1925",
+          "designer": "Marcel Breuer",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGgD-1bgwHvdBDU5cHlybxJp1k_7SREKF3Tg&s",
+          "value": "Designer: Marcel Breuer.\n\nA landmark tubular-steel chair that borrows from industrial materials and bending techniques. It reframes furniture away from traditional joinery and hand carving, toward a language of manufacturing, assembly, and serial possibility.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Tubular steel suggests serial production, but early versions still relied on skilled finishing and limited runs. Ask when ‘industrial materials’ truly become mass production: the factory process, the market, or the scale of adoption?"
+            }
+          ]
         },
         {
-          "name": "Chrysler Building (William Van Alen)",
+          "name": "Marianne Brandt Teapot",
+          "date": "1924",
+          "designer": "Marianne Brandt",
+          "img": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/491299/preview",
+          "value": "Designer: Marianne Brandt.\n\nA Bauhaus metalwork icon that looks machine-like yet was made with workshop skill and experimentation. It’s a perfect ‘bridge’ object: craft-trained prototyping aimed at an industrial future.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "It looks machine-like yet comes from workshop experimentation as a prototype for industry. Ask how Bauhaus redefines craft—not tradition, but research toward reproducible form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1930-1933 / American Art Deco",
+      "date": "1930-1933",
+      "value": "Deco as American spectacle—large-scale interiors, skyscrapers, and commercial style systems tied to modern urban life.",
+      "children": [
+        {
+          "name": "Ruth Reeves, The History of Theatre",
+          "date": "1932",
+          "designer": "Ruth Reeves",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkXOmIpTKtgCVJJq7ElQN1BcELTJ9RdqatXw&s",
+          "value": "Designer: Ruth Reeves.\n\nA monumental textile wall covering created for Radio City Music Hall, translating modern art influences into architectural-scale surface design. It mixes artisanal pattern intelligence with the reality of corporate, large-venue production and public experience.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A crafted surface concept is scaled up for a corporate, public mega-venue. Ask what changes when textile ‘art’ moves from intimate craft to monumental, standardized installation."
+            }
+          ]
+        },
+        {
+          "name": "Radio City Music Hall",
+          "date": "1932",
+          "designer": "Donald Deskey (interior design coordination)",
+          "img": "https://images.adsttc.com/media/images/5797/901e/e58e/ce86/a200/00e3/large_jpg/Erik_Drost_1.jpg?1469550605",
+          "value": "Designer: Donald Deskey (interior design coordination).\n\nA ‘total design’ environment where materials, furnishings, signage, and surfaces form a unified Art Deco experience. It looks luxurious and crafted, but it was produced for mass entertainment—design as industrial-scale operation.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A ‘crafted’ total interior is produced and maintained for mass entertainment. Ask whether the craft here is handwork—or coordination, specification, and industrial execution."
+            }
+          ]
+        },
+        {
+          "name": "Chrysler Building",
           "date": "1930",
-          "time": "",
-          "value": "Skyscraper as Art Deco monument; ornament, speed, and corporate identity.",
-          "children": []
+          "designer": "William Van Alen",
+          "img": "https://cdn-ffcgi.nitrocdn.com/ZhDYBbXPoHrCHvLPGOdQmXKAjZXwoPng/assets/images/optimized/rev-bc2df0e/jamesmaherphotography.com/wp-content/uploads/2016/03/chrysler_building_1930.jpeg",
+          "value": "Designer: William Van Alen.\n\nAn icon of machine-age glamour, using industrial materials like stainless steel to create ornament at skyscraper scale. It embodies how modern industry and massive labor forces could generate a ‘crafted’ visual richness in the city.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Industrial materials and vast labor forces create ornament that reads as ‘crafted’ at skyline scale. Ask how ornament shifts when it becomes a product of industry and corporate branding."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1925-1940 / American Art Deco",
-      "date": "1925-1940",
-      "time": "",
-      "value": "Art Deco translated into U.S. mass urbanism: skyscrapers, interiors, public works.",
+      "name": "1934-1949 / Americann Streamlining",
+      "date": "1934-1949",
+      "value": "Industrial design as mass-market persuasion—styling, ergonomics, and new materials used to sell modern life.",
       "children": [
         {
-          "name": "Empire State Building (Shreve, Lamb & Harmon)",
-          "date": "1931",
-          "time": "",
-          "value": "Art Deco skyscraper icon; verticality + spectacle in the Depression-era city.",
-          "children": []
-        },
-        {
-          "name": "30 Rockefeller Plaza / RCA Building (Raymond Hood et al.)",
-          "date": "1933",
-          "time": "",
-          "value": "Art Deco corporate modernity; integrated media/commerce complex centerpiece.",
-          "children": []
-        },
-        {
-          "name": "Golden Gate Bridge (Joseph Strauss + Irving Morrow detailing)",
-          "date": "1937",
-          "time": "",
-          "value": "Engineering monument with Art Deco design language and civic symbolism.",
-          "children": []
-        }
-      ]
-    },
-    {
-      "name": "1930-1955 / American Streamlining",
-      "date": "1930-1955",
-      "time": "",
-      "value": "Aerodynamics as style: speed lines, smooth shells, and optimistic technological form.",
-      "children": [
-        {
-          "name": "Chrysler Airflow (automobile)",
+          "name": "Pencil sharpener",
           "date": "1934",
-          "time": "",
-          "value": "Early U.S. production car shaped by streamlining research and modern engineering ideals.",
-          "children": []
+          "designer": "Raymond Loewy",
+          "img": "https://blog.flametreepublishing.com/hubfs/Raymond_Loewy_Pencil_Sharpener.jpg",
+          "value": "Designer: Raymond Loewy.\n\nA small everyday object reshaped by streamline styling to look modern and efficient. It shows how industrial design can transform perception through form—making mass-produced goods feel desirable without relying on artisanal uniqueness.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Streamlining makes a basic object feel modern without changing its core function. Ask whether design becomes a kind of ‘mass-produced craft’—adding value through form rather than making technique."
+            }
+          ]
         },
         {
-          "name": "Pioneer Zephyr / Burlington Zephyr (streamliner train)",
+          "name": "Coldspot Refrigerator",
           "date": "1934",
-          "time": "",
-          "value": "Stainless-steel streamliner; speed + efficiency as public image for transport.",
-          "children": []
+          "designer": "Raymond Loewy (for Sears, Roebuck & Co.)",
+          "img": "https://i.pinimg.com/736x/bd/9d/49/bd9d4928a849ab8c044d45097db78dd0.jpg",
+          "value": "Designer: Raymond Loewy (for Sears, Roebuck & Co.).\n\nA key example of streamline applied to home appliances, aligning kitchen life with modern consumer identity. It represents mass production at scale, where ‘good form’ replaces handcrafted furniture as the visual anchor of the domestic interior.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A mass-produced appliance replaces handcrafted cabinetry as the visual anchor of the kitchen. Ask how industrial products standardize domestic life—layouts, habits, and even ideals of cleanliness."
+            }
+          ]
         },
         {
-          "name": "Studebaker Commander Starliner (Loewy Associates / Robert Bourke)",
-          "date": "1953",
-          "time": "",
-          "value": "Low-slung coupe; postwar streamline/jet-age cues shaping American car identity.",
-          "children": []
+          "name": "Model 500 Telephone",
+          "date": "1949",
+          "designer": "Henry Dreyfuss",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbW7fc2cAhiRabTn4diix7GWVTHC4o0McWA&s",
+          "value": "Designer: Henry Dreyfuss.\n\nA standardized telephone designed around usability and human factors, meant for enormous production volumes. It’s a clear case where design excellence is achieved through research and manufacturing consistency, not artisan variability.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A standardized form is optimized through human-factors research and produced at huge scale. Ask what replaces craft variation: measurement, testing, and a spec that defines ‘good fit’ for everyone."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1945-1970 / Postwar and Pop",
-      "date": "1945-1970",
-      "time": "",
-      "value": "Postwar prosperity + consumer culture: modern living, mass products, pop imagery.",
+      "name": "1941-1958 / Postwar and Pop",
+      "date": "1941-1958",
+      "value": "New materials, new markets, and mass culture—design moves between experimental making, consumer goods, and playful media.",
       "children": [
         {
-          "name": "Eames Lounge Chair and Ottoman (Charles & Ray Eames)",
-          "date": "1956",
-          "time": "",
-          "value": "High-comfort modern furniture; industrial methods + domestic luxury.",
-          "children": []
+          "name": "Kazam Machine",
+          "date": "1941",
+          "designer": "Charles & Ray Eames",
+          "img": "https://eamesfoundation.org/wp-content/uploads/2025/10/14M.jpg",
+          "value": "Designer: Charles & Ray Eames.\n\nA DIY molding apparatus built to pursue low-cost mass production of complex curved plywood. It’s both hand-made experimentation and a pathway to industrial scaling—where craft becomes the method for inventing manufacturing.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A handmade jig exists to enable repeatable molded plywood at industrial scale. Ask how craft can function as the invention phase of mass production—craft as R&D, not the final product."
+            }
+          ]
         },
         {
-          "name": "Pocket Radio T3 (Dieter Rams, Braun)",
+          "name": "LCM Chair",
+          "date": "1945-46",
+          "designer": "Charles Eames & Eero Saarinen",
+          "img": "https://www.eamesoffice.com/wp-content/uploads/2021/08/DSC_0006-Front-L-scaled.jpg",
+          "value": "Designer: Charles Eames & Eero Saarinen.\n\nA molded plywood chair that turns wartime material research into a repeatable consumer product. It keeps the warmth of wood while depending on industrial pressing—balancing the look of craft with the logic of mass production.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Molded plywood looks warm and ‘wooden’ while depending on industrial pressing and repeatability. Ask how postwar design sells a craft-like feel through mass manufacturing."
+            }
+          ]
+        },
+        {
+          "name": "Redesigned View-Master Model G",
           "date": "1958",
-          "time": "",
-          "value": "Minimal, rational industrial design; everyday electronics as modern lifestyle objects.",
-          "children": []
-        },
-        {
-          "name": "Campbell's Soup Cans (Andy Warhol)",
-          "date": "1962",
-          "time": "",
-          "value": "Pop Art landmark: branding and repetition as a critique/celebration of mass culture.",
-          "children": []
+          "designer": "Charles Harrison",
+          "img": "https://www.artic.edu/iiif/2/ded4281b-607b-4ea5-0736-6d12e3cf01b4/full/843,/0/default.jpg",
+          "value": "Designer: Charles Harrison.\n\nA redesigned View-Master that uses injection-molded plastic for durable, affordable mass production. It shows how postwar design made media objects scalable—popular entertainment engineered as standardized consumer hardware.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Injection-molded plastic makes media hardware affordable for many users. Ask how mass production democratizes access while also standardizing what play and imagination look like."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "1970-1995 / Postmodernism",
-      "date": "1970-1995",
-      "time": "",
-      "value": "Reaction to strict modernism: quotation, irony, pluralism, and playful form.",
+      "name": "1959-1994 / Postmodernism",
+      "date": "1959-1994",
+      "value": "Critique of strict modernism—irony, history, and symbolism return, often through commodity culture and designer ‘signatures.’",
       "children": [
         {
-          "name": "Piazza d'Italia, New Orleans (Charles Moore)",
-          "date": "1978",
-          "time": "",
-          "value": "Architectural quotation + theatrical public space; postmodern urban symbolism.",
-          "children": []
-        },
-        {
-          "name": "Carlton Room Divider (Ettore Sottsass / Memphis)",
+          "name": "Memphis Carlton",
           "date": "1981",
-          "time": "",
-          "value": "Memphis icon: bold geometry and laminate color as anti-functional statement.",
-          "children": []
+          "designer": "Ettore Sottsass (Memphis)",
+          "img": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/486989/1005175/restricted",
+          "value": "Designer: Ettore Sottsass (Memphis).\n\nA deliberately loud, symbolic ‘bookcase’ that treats furniture as image and attitude. It challenges modernist seriousness and function-first logic, turning production materials (laminates) into playful, anti-heroic design.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "Industrial laminates and simple fabrication produce an object that prioritizes symbolism over function. Ask how postmodern design uses mass-production materials to critique the idea that ‘good design’ must be rational and standardized."
+            }
+          ]
         },
         {
-          "name": "Alessi 9093 Kettle (Michael Graves)",
-          "date": "1985",
-          "time": "",
-          "value": "Postmodern product design: playful ornament and pop references in an everyday object.",
-          "children": []
+          "name": "‘Anna G’ corkscrew for Alessi",
+          "date": "1994",
+          "designer": "Alessandro Mendini",
+          "img": "https://us.alessi.com/cdn/shop/products/Z-03-new_AM01.jpg?v=1643879847",
+          "value": "Designer: Alessandro Mendini.\n\nA mass-produced kitchen tool that behaves like a character—design as narrative and brand identity. It shows postmodern shifts where emotional symbolism and styling can be the product’s primary value, not just function.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A factory-made tool becomes a character with a designer ‘signature.’ Ask how personality and narrative substitute for craft scarcity to create perceived uniqueness."
+            }
+          ]
+        },
+        {
+          "name": "Vanna Venturi House",
+          "date": "1959-64",
+          "designer": "Robert Venturi",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqv47c9gAYXUnLBpxVqbWnyO0D2ZqFJ14jcQ&s",
+          "value": "Designer: Robert Venturi.\n\nA house that reintroduces contradiction, historical reference, and ‘messy’ symbolism against modernist purity. It argues that architecture can communicate culturally—where meaning and context matter as much as rational construction.",
+          "children": [
+            {
+              "name": "Idea: Mass-production vs Craftsmanship",
+              "date": "",
+              "designer": "",
+              "img": "",
+              "value": "A custom house reintroduces historical reference and contradiction against modernist purity. Ask whether this is a return to ‘craft’—or a shift to crafting meaning (symbols, context, interpretation)."
+            }
+          ]
         }
       ]
     }
